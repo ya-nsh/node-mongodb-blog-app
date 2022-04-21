@@ -10,17 +10,17 @@ export default function SinglePost() {
           src="https://images.pexels.com/photos/6685428/pexels-photo-6685428.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
           alt="Frosty mountain"
         />
-        <h1 className="singlePostTitle">
+        <h1 className="singlePostTitle text-center m-3 text-3xl">
           Lorem ipsum dolor sit amet
-          <div className="singlePostEdit">
-            <i className="singlePostIcon far fa-edit"></i>
-            <i className="singlePostIcon far fa-trash-alt"></i>
+          <div className="singlePostEdit float-right text-xl">
+            <i className="singlePostIcon ml-2 cursor-pointer far fa-edit"></i>
+            <i className="singlePostIcon ml-2 cursor-pointer  far fa-trash-alt"></i>
           </div>
         </h1>
-        <div className="singlePostInfo">
+        <div className="singlePostInfo mb-5 flex justify-between text-xl text-[#be9656]">
           <span>
             Author:
-            <b className="singlePostAuthor">
+            <b className="singlePostAuthor ml-1">
               <a className="link" href="/posts?username=Safak">
                 Safak
               </a>
@@ -28,7 +28,7 @@ export default function SinglePost() {
           </span>
           <span>1 day ago</span>
         </div>
-        <p className="singlePostDesc">
+        <p className="singlePostDesc text-[#666] text-xl">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste error
           quibusdam ipsa quis quidem doloribus eos, dolore ea iusto impedit!
           Voluptatum necessitatibus eum beatae, adipisci voluptas a odit modi

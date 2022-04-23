@@ -22,7 +22,7 @@ export default function SinglePost() {
             Author:
             <b className="singlePostAuthor ml-1">
               <a className="link" href="/posts?username=Safak">
-                Safak
+                User1
               </a>
             </b>
           </span>
